@@ -12,7 +12,7 @@ class Bullcowgame:
                         break
                         break
                     else:
-                        print("please enter a word only having " + str(self.wordlength) + " letters")       #hell0
+                        print("please make sure to enter a word only having " + str(self.wordlength) + " letters")       #hell0
                 bulls = 0
                 cows = 0
                 for j in range(0, self.wordlength):
